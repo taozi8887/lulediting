@@ -45,19 +45,19 @@
         </div>
         <div class="navbar font-roc3 position-fixed bg-quaternary center-vertical border-radius-pill padding-left-3 padding-right-3 padding-top-2 padding-bottom-2 right-8">
             <div class="navbar-item border-radius-pill center-vertical padding-2 padding-left-3 padding-right-3 text-primary transition-slow font-md">
-                <a href="">Home</a>
+                <a href="home.html">Home</a>
             </div>
             <div class="navbar-item border-radius-pill center-vertical padding-2 padding-left-3 padding-right-3 text-primary transition-slow font-md link-active">
-                <a href="">About</a>
+                <a href="about.html">About</a>
             </div>
             <div class="navbar-item border-radius-pill center-vertical padding-2 padding-left-3 padding-right-3 text-primary transition-slow font-md">
-                <a href="">Contact</a>
+                <a href="contact.html">Contact</a>
             </div>
             <div class="navbar-item border-radius-pill center-vertical padding-2 padding-left-3 padding-right-3 text-primary transition-slow font-md">
-                <a href="">FAQ</a>
+                <a href="faq.html">FAQ</a>
             </div>
             <div class="navbar-item border-radius-pill center-vertical padding-2 padding-left-3 padding-right-3 text-primary transition-slow font-md">
-                <a href="">Applications</a>
+                <a href="applications.html">Applications</a>
             </div>
             <div class="navbar-item dropdown border-radius-pill center-vertical padding-2 padding-left-3 padding-right-3 text-primary transition-slow font-md">
                 <a href="">Courses</a>
@@ -132,32 +132,38 @@
             Meet the Team
         </h1>
         <div class="teamcontainer height-100 margin-left-10 phtlm">
-            <p class="text-primary font-roc2 font-2 position-absolute htlm">Click to learn more!</p>
+            <p class="text-primary font-roc2 font-2 position-absolute htlm">Hover to learn more!</p>
             <div class="row flex-row height-20 margin-10">
-                <div class="border-radius-pill width-65 height-100 bg-primary hover-pointer pill1 pill flex-row" onclick="expand(this);" color="bg-primary" p="saad">
+                <div class="border-radius-pill width-65 height-100 bg-primary hover-pointer pill1 pill flex-column" onclick="expand(this);" color="bg-primary" p="saad">
                     <h1 class="center-horizontal center-vertical height-100 width-100 text-white font-urbane-light-normal">Saad Mohiuddin</h1>
+                    <p class="width-100 text-center text-white font-roc2 font-2 position-absolute clickme">Click Me!</p>
                 </div>
                 <div class="height-100 width-5 pill12 pill"></div>
-                <div class="border-radius-pill width-30 height-100 bg-secondary hover-pointer pill2 pill flex-row" onclick="expand(this);" color="bg-secondary" p="kevin">
+                <div class="border-radius-pill width-30 height-100 bg-secondary hover-pointer pill2 pill flex-column" onclick="expand(this);" color="bg-secondary" p="kevin">
                     <h1 class="center-horizontal center-vertical height-100 width-100 text-primary font-urbane-light-normal">Kevin Huang</h1>
+                    <p class="width-100 text-center text-primary font-roc2 font-2 position-absolute clickme">Click Me!</p>
                 </div>
             </div>
             <div class="row flex-row height-20 margin-10">
-                <div class="border-radius-pill width-20 height-100 bg-tertiary hover-pointer pill1 pill flex-row" onclick="expand(this);" color="bg-tertiary" p="dan">
+                <div class="border-radius-pill width-20 height-100 bg-tertiary hover-pointer pill1 pill flex-column" onclick="expand(this);" color="bg-tertiary" p="dan">
                     <h1 class="center-horizontal center-vertical height-100 width-100 text-primary font-urbane-light-normal">Dan Zhang</h1>
+                    <p class="width-100 text-center text-primary font-roc2 font-2 position-absolute clickme">Click Me!</p>
                 </div>
                 <div class="height-100 width-5 pill12 pill"></div>
-                <div class="border-radius-pill width-75 height-100 bg-quaternary hover-pointer pill2 pill flex-row" onclick="expand(this);" color="bg-quaternary" p="ahmed">
+                <div class="border-radius-pill width-75 height-100 bg-quaternary hover-pointer pill2 pill flex-column" onclick="expand(this);" color="bg-quaternary" p="ahmed">
                     <h1 class="center-horizontal center-vertical height-100 width-100 text-primary font-urbane-light-normal">Ahmed Mahmood</h1>
+                    <p class="width-100 text-center text-primary font-roc2 font-2 position-absolute clickme">Click Me!</p>
                 </div>
             </div>
             <div class="row flex-row height-20 margin-10">
-                <div class="border-radius-pill width-50 height-100 bg-quinary hover-pointer pill1 pill flex-row" onclick="expand(this);" color="bg-quinary" p="jason">
+                <div class="border-radius-pill width-50 height-100 bg-quinary hover-pointer pill1 pill flex-column" onclick="expand(this);" color="bg-quinary" p="jason">
                     <h1 class="center-horizontal center-vertical height-100 width-100 text-primary font-urbane-light-normal">Jason Hu</h1>
+                    <p class="width-100 text-center text-primary font-roc2 font-2 position-absolute clickme">Click Me!</p>
                 </div>
                 <div class="height-100 width-5 pill12 pill"></div>
-                <div class="border-radius-pill width-45 height-100 bg-secondary hover-pointer pill2 pill flex-row" onclick="expand(this);" color="bg-secondary" p="tristan">
+                <div class="border-radius-pill width-45 height-100 bg-secondary hover-pointer pill2 pill flex-column" onclick="expand(this);" color="bg-secondary" p="tristan">
                     <h1 class="center-horizontal center-vertical height-100 width-100 text-primary font-urbane-light-normal">Tristan Kwan</h1>
+                    <p class="width-100 text-center text-primary font-roc2 font-2 position-absolute clickme">Click Me!</p>
                 </div>
             </div>
         </div>
@@ -251,13 +257,6 @@
     </div>
     <div id="scroll" style="display: none;"></div>
     <script>
-        document.getElementById("year").innerHTML = new Date().getFullYear();
-        // Function to toggle the expanded/collapsed state of the navbar
-        function toggleMenu() {
-            var navbarItems = document.querySelector('.navbar');
-            navbarItems.classList.toggle('shrunk');
-            document.querySelector('.hamburger-container').classList.toggle('open');
-        }
         p = {
             'ahmed': {
                 'name': 'Ahmed Mahmood',

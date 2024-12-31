@@ -1563,3 +1563,34 @@ body {
     width: 100%;
     align-items: center;
 }
+
+.clickme {
+    opacity: 0;
+    transition: all 0.2s ease;
+    top: 60%;
+    transform: translateY(100%);
+}
+
+.pill:hover .clickme {
+    opacity: .8;
+    transform: translateY(0);
+}
+
+.pill:hover h1 {
+    transform: translateY(-15%);
+}
+
+@keyframes fadeInDropdown {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+
+main {
+    animation: fadeInDropdown 0.5s forwards;
+}
