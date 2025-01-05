@@ -11,6 +11,7 @@
         <link rel="icon" href="images/logo.png"></link>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <!-- Scripts -->
+        <script src="index.js"></script>
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <!-- font awesome line goes here -->
         <script src="butter.js"></script>
@@ -77,6 +78,48 @@
         </div>
     </header>
     <!-- navbar -->
+    <main class="padding-10 height-75vh center-horizontal center-vertical font-roc">
+        <h1 class="text-primary font-3xl">Frequently Asked Questions<br><p class="font-2 padding-top-5">Can't find what you're looking for?<br>Still have questions?<br><br>
+            Send us a message <a style="text-decoration: underline;" href="contact.html">here</a>!</p></h1>
+        <div class="faq-container">
+            <div class="faq-item">
+              <div class="faq-question font-2">
+                Why is edward the goat
+                <span class="arrow">▶</span>
+              </div>
+              <div class="faq-answer">
+                hes the goat
+              </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question font-2">
+                  Why is edward the goat
+                  <span class="arrow">▶</span>
+                </div>
+                <div class="faq-answer">
+                  hes the goat
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question font-2">
+                  Why is edward the goat
+                  <span class="arrow">▶</span>
+                </div>
+                <div class="faq-answer">
+                  hes the goat
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question font-2">
+                  Why is edward the goat
+                  <span class="arrow">▶</span>
+                </div>
+                <div class="faq-answer">
+                  hes the goat
+                </div>
+            </div>
+          </div>
+    </main>
     <footer class="height-100vh bg-primary margin-top-20 flex-column padding-10 width-100" style="max-height: fit-content;">
         <div class="upper flex-row text-white font-roc2">
             <div class="logo width-50">
@@ -120,5 +163,28 @@
             <h1 class="font-roc font-1 margin-right-5">© <span id="year"></span> Light Up Learning</h1>
         </div>
     </footer>
+    <script>
+        const faqItems = document.querySelectorAll('.faq-item');
+
+faqItems.forEach(item => {
+  const question = item.querySelector('.faq-question');
+  const answer = item.querySelector('.faq-answer');
+  const arrow = item.querySelector('.arrow');
+
+  question.addEventListener('click', () => {
+    const isOpen = answer.classList.contains('open');
+
+    // Close all open answers
+    document.querySelectorAll('.faq-answer').forEach(a => a.classList.remove('open'));
+    document.querySelectorAll('.arrow').forEach(a => a.classList.remove('open'));
+
+    // Toggle current item
+    if (!isOpen) {
+      answer.classList.add('open');
+      arrow.classList.add('open');
+    }
+  });
+});
+    </script>
 </body>
 </html>
