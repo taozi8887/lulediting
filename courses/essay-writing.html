@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Styles / Icons -->
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/queries.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/queries.css">
     <!-- font google go on this line -->
     <link rel="icon" href="images/logo.png"></link>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <!-- Scripts -->
+    <script src="../index.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!-- font awesome line goes here -->
     <script src="butter.js"></script>
@@ -38,6 +39,87 @@
     <title>Light Up Learning - Essay Writing</title>
 </head>    
 <body>
-    
+    <header class="padding-5 padding-bottom-1 flex center-vertical">
+        <div class="logo-container padding-left-3 padding-right-3 padding-top-1 padding-bottom-1 margin-left-5 center-vertical">
+            <h1 class="font-urbane-medium text-primary font-3xl">Light Up Learning</h1>
+        </div>
+        <div class="navbar font-roc3 position-fixed bg-quaternary center-vertical border-radius-pill padding-left-3 padding-right-3 padding-top-2 padding-bottom-2 right-8">
+            <div class="navbar-item border-radius-pill center-vertical padding-2 padding-left-3 padding-right-3 text-primary transition-slow font-md">
+                <a href="../home.html">Home</a>
+            </div>
+            <div class="navbar-item border-radius-pill center-vertical padding-2 padding-left-3 padding-right-3 text-primary transition-slow font-md">
+                <a href="../about.html">About</a>
+            </div>
+            <div class="navbar-item border-radius-pill center-vertical padding-2 padding-left-3 padding-right-3 text-primary transition-slow font-md">
+                <a href="../contact.html">Contact</a>
+            </div>
+            <div class="navbar-item border-radius-pill center-vertical padding-2 padding-left-3 padding-right-3 text-primary transition-slow font-md">
+                <a href="../faq.html">FAQ</a>
+            </div>
+            <div class="navbar-item border-radius-pill center-vertical padding-2 padding-left-3 padding-right-3 text-primary transition-slow font-md">
+                <a href="../applications.html">Applications</a>
+            </div>
+            <div class="navbar-item dropdown border-radius-pill center-vertical padding-2 padding-left-3 padding-right-3 text-primary transition-slow font-md link-active">
+                <a href="courses.html">Courses</a>
+                <div class="dropdown-items"><br>
+                    <a href="math.html">Mathematics</a><br><br>
+                    <a href="science.html">Science</a><br><br>
+                    <a href="computing-science.html">Computing Science</a><br><br>
+                    <a href="essay-writing.html" class="link-active">Essay Writing</a><br><br>
+                    <a href="english.html">English</a><br><br>
+                </div>
+            </div>
+        </div>
+        <!-- Hamburger Icon (Hidden by Default) -->
+        <div class="hamburger-container border-radius-circle bg-quaternary padding-2 right-4 position-fixed center-vertical flex-column shadow-23 open" onclick="toggleMenu()">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+    <!-- navbar -->
+    <footer class="height-100vh bg-primary margin-top-20 flex-column padding-10 width-100" style="max-height: fit-content;">
+        <div class="upper flex-row text-white font-roc2">
+            <div class="logo width-50">
+                <h1 class="font-urbane-medium font-4xl margin-top-9 margin-left-9 margin-bottom-3">
+                    Brightening Minds<br>Shaping Futures
+                </h1>
+                <div class="socials flex-row">
+                    <a class="text-white width-5 margin-right-1 margin-left-10 margin-top-10" target="_blank" href="https://x.com/LULearningYEG"><svg viewBox="0 -2 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>twitter [#ffffff]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-60.000000, -7521.000000)" fill="#ffffff"> <g id="icons" transform="translate(56.000000, 160.000000)"> <path d="M10.29,7377 C17.837,7377 21.965,7370.84365 21.965,7365.50546 C21.965,7365.33021 21.965,7365.15595 21.953,7364.98267 C22.756,7364.41163 23.449,7363.70276 24,7362.8915 C23.252,7363.21837 22.457,7363.433 21.644,7363.52751 C22.5,7363.02244 23.141,7362.2289 23.448,7361.2926 C22.642,7361.76321 21.761,7362.095 20.842,7362.27321 C19.288,7360.64674 16.689,7360.56798 15.036,7362.09796 C13.971,7363.08447 13.518,7364.55538 13.849,7365.95835 C10.55,7365.79492 7.476,7364.261 5.392,7361.73762 C4.303,7363.58363 4.86,7365.94457 6.663,7367.12996 C6.01,7367.11125 5.371,7366.93797 4.8,7366.62489 L4.8,7366.67608 C4.801,7368.5989 6.178,7370.2549 8.092,7370.63591 C7.488,7370.79836 6.854,7370.82199 6.24,7370.70483 C6.777,7372.35099 8.318,7373.47829 10.073,7373.51078 C8.62,7374.63513 6.825,7375.24554 4.977,7375.24358 C4.651,7375.24259 4.325,7375.22388 4,7375.18549 C5.877,7376.37088 8.06,7377 10.29,7376.99705" id="twitter-[#ffffff]"> </path> </g> </g> </g> </g></svg></a>
+                    <a class="text-white width-5 margin-right-1 margin-left-10 margin-top-10" target="_blank" href="https://lightuplearning.netlify.app/pages/wechat"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M11.8088 7.05902C11.3508 7.06746 10.9637 7.45766 10.9718 7.90277C10.9802 8.36421 11.3599 8.7252 11.8309 8.7196C12.3031 8.71385 12.6613 8.3491 12.6568 7.87785C12.6529 7.41534 12.2749 7.05051 11.8088 7.05902ZM7.35079 7.91557C7.36789 7.47215 6.98366 7.07275 6.52729 7.05933C6.06002 7.04561 5.67572 7.40269 5.66207 7.8632C5.64827 8.32985 6.0052 8.70373 6.47584 8.71569C6.94241 8.72757 7.33354 8.36996 7.35079 7.91557ZM15.8953 8.67099C14.0388 8.76798 12.4244 9.33078 11.1137 10.6023C9.7894 11.887 9.18488 13.4611 9.35012 15.4126C8.62446 15.3226 7.96351 15.2237 7.2988 15.1678C7.06924 15.1484 6.7968 15.1759 6.60235 15.2856C5.95689 15.6498 5.33812 16.061 4.60471 16.5195C4.73928 15.9108 4.82638 15.3778 4.98058 14.8652C5.09398 14.4884 5.04146 14.2788 4.69434 14.0333C2.46568 12.4599 1.52624 10.1051 2.22929 7.68071C2.87973 5.43794 4.47705 4.07778 6.64744 3.36875C9.60982 2.4011 12.939 3.38815 14.7404 5.74012C15.391 6.58969 15.7899 7.54323 15.8953 8.67099Z" fill="#ffffff"></path> <path d="M17.6884 12.3843C17.3253 12.3818 17.0167 12.6791 17.0019 13.046C16.9861 13.4383 17.2912 13.7605 17.6794 13.7615C18.055 13.7627 18.3517 13.4787 18.3655 13.105C18.38 12.7117 18.0749 12.387 17.6884 12.3843ZM13.3745 13.7662C13.7489 13.7666 14.057 13.4737 14.0711 13.1041C14.0861 12.7127 13.7713 12.3845 13.3795 12.3828C12.9915 12.381 12.6664 12.714 12.6799 13.0994C12.6927 13.4678 13.003 13.7658 13.3745 13.7662ZM20.0664 20.2452C19.4785 19.9835 18.9392 19.5907 18.3652 19.5308C17.7932 19.471 17.1919 19.801 16.5936 19.8622C14.771 20.0486 13.138 19.5407 11.7916 18.2956C9.23081 15.927 9.59671 12.2954 12.5594 10.3543C15.1925 8.62927 19.0542 9.20435 20.9107 11.598C22.5307 13.6866 22.3403 16.4592 20.3626 18.2139C19.7903 18.7217 19.5843 19.1397 19.9515 19.809C20.0193 19.9326 20.027 20.0891 20.0664 20.2452Z" fill="#ffffff"></path> </g></svg></a>
+                    <a class="text-white width-5 margin-right-1 margin-left-10 margin-top-10" target="_blank" href="https://www.instagram.com/lightuplearningyeg/"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16.19 2H7.81C4.17 2 2 4.17 2 7.81V16.18C2 19.83 4.17 22 7.81 22H16.18C19.82 22 21.99 19.83 21.99 16.19V7.81C22 4.17 19.83 2 16.19 2ZM12 15.88C9.86 15.88 8.12 14.14 8.12 12C8.12 9.86 9.86 8.12 12 8.12C14.14 8.12 15.88 9.86 15.88 12C15.88 14.14 14.14 15.88 12 15.88ZM17.92 6.88C17.87 7 17.8 7.11 17.71 7.21C17.61 7.3 17.5 7.37 17.38 7.42C17.26 7.47 17.13 7.5 17 7.5C16.73 7.5 16.48 7.4 16.29 7.21C16.2 7.11 16.13 7 16.08 6.88C16.03 6.76 16 6.63 16 6.5C16 6.37 16.03 6.24 16.08 6.12C16.13 5.99 16.2 5.89 16.29 5.79C16.52 5.56 16.87 5.45 17.19 5.52C17.26 5.53 17.32 5.55 17.38 5.58C17.44 5.6 17.5 5.63 17.56 5.67C17.61 5.7 17.66 5.75 17.71 5.79C17.8 5.89 17.87 5.99 17.92 6.12C17.97 6.24 18 6.37 18 6.5C18 6.63 17.97 6.76 17.92 6.88Z" fill="#fff"></path> </g></svg></a>
+                </div>
+            </div>
+            <div class="pages flex-column margin-10">
+                <h1 class="margin-bottom-5">Pages</h1>
+                <a class="margin-bottom-3" href="">Home</a>
+                <a class="margin-bottom-3" href="">About</a>
+                <a class="margin-bottom-3" href="">Contact</a>
+                <a class="margin-bottom-3" href="">FAQ</a>
+                <a class="margin-bottom-3" href="">Applications</a>
+                <a class="margin-bottom-3" href="">Courses</a>
+            </div>
+            <div class="courses flex-column margin-10">
+                <h1 class="margin-bottom-5">Courses</h1>
+                <a class="margin-bottom-3" >Mathematics</a>
+                <a class="margin-bottom-3" >Science</a>
+                <a class="margin-bottom-3" >Computing Science</a>
+                <a class="margin-bottom-3" >Essay Writing</a>
+                <a class="margin-bottom-3" >English</a>
+            </div>
+            <div class="information flex-column margin-10">
+                <h1 class="margin-bottom-5">Information</h1>
+                <p class="margin-bottom-3" >Edmonton, Alberta</p>
+                <p class="margin-bottom-3" >LightUpLearningYEG@gmail.com</p>
+                <p class="margin-bottom-3" >(825) - 461 - 2877</p>
+            </div>
+        </div>
+        <hr class="bg-white margin-5 border-white">
+        <div class="lower margin-top-11 text-white flex-row width-100 align-right width-100">
+            <h1 class="font-roc font-1 align-left margin-left-5" style="margin-right: auto;">Light Up Learning</h1>
+            <h1 class="font-roc font-sm center-horizontal" style="margin: auto;text-align: center;">Made by Edward Luo, Dan Zhang, and Ahmed Mahmood</h1>
+            <h1 class="font-roc font-1 margin-right-5">© <span id="year"></span> Light Up Learning</h1>
+        </div>
+    </footer>
 </body>
 </html>
