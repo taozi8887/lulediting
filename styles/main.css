@@ -183,37 +183,37 @@ hr {
 
 @font-face {
     font-family: 'roc';
-    src: url(https://github.com/taozi8887/lulediting/blob/main/styles/fonts/roc.woff2);
+    src: url(fonts/roc.woff2);
     font-weight: 300;
 }
   
 @font-face {
     font-family: 'roc';
-    src: url(https://github.com/taozi8887/lulediting/blob/main/styles/fonts/roc2.woff2);
+    src: url(fonts/roc2.woff2);
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'roc3';
-    src: url(https://github.com/taozi8887/lulediting/blob/main/styles/fonts/roc3.woff2);
+    src: url(fonts/roc3.woff2);
     font-weight: 500;
 }
 
 @font-face {
     font-family: 'roc';
-    src: url(https://github.com/taozi8887/lulediting/blob/main/styles/fonts/roc4.woff2);
+    src: url(fonts/roc4.woff2);
     font-weight: 600;
 }
 
 /* Urbane Font Faces */
 @font-face {
     font-family: 'Urbane';
-    src: url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-LightItalic.eot');
+    src: url('fonts/Urbane-LightItalic.eot');
     src: local('Urbane Light Italic'), local('Urbane-LightItalic'),
         url('fonts/Urbane-LightItalic.eot?#iefix') format('embedded-opentype'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-LightItalic.woff2') format('woff2'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-LightItalic.woff') format('woff'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-LightItalic.ttf') format('truetype');
+        url('fonts/Urbane-LightItalic.woff2') format('woff2'),
+        url('fonts/Urbane-LightItalic.woff') format('woff'),
+        url('fonts/Urbane-LightItalic.ttf') format('truetype');
     font-weight: 300;
     font-style: italic;
     font-display: swap;
@@ -221,12 +221,12 @@ hr {
 
 @font-face {
     font-family: 'Urbane';
-    src: url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-Medium.eot');
+    src: url('fonts/Urbane-Medium.eot');
     src: local('Urbane Medium'), local('Urbane-Medium'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-Medium.eot?#iefix') format('embedded-opentype'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-Medium.woff2') format('woff2'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-Medium.woff') format('woff'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-Medium.ttf') format('truetype');
+        url('fonts/Urbane-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Urbane-Medium.woff2') format('woff2'),
+        url('fonts/Urbane-Medium.woff') format('woff'),
+        url('fonts/Urbane-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -234,12 +234,12 @@ hr {
 
 @font-face {
     font-family: 'Urbane';
-    src: url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-ThinItalic.eot');
+    src: url('fonts/Urbane-ThinItalic.eot');
     src: local('Urbane Thin Italic'), local('Urbane-ThinItalic'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-ThinItalic.eot?#iefix') format('embedded-opentype'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-ThinItalic.woff2') format('woff2'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-ThinItalic.woff') format('woff'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-ThinItalic.ttf') format('truetype');
+        url('fonts/Urbane-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Urbane-ThinItalic.woff2') format('woff2'),
+        url('fonts/Urbane-ThinItalic.woff') format('woff'),
+        url('fonts/Urbane-ThinItalic.ttf') format('truetype');
     font-weight: 100;
     font-style: italic;
     font-display: swap;
@@ -247,12 +247,12 @@ hr {
 
 @font-face {
     font-family: 'Urbane Demi';
-    src: url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-DemiBold.eot');
+    src: url('fonts/Urbane-DemiBold.eot');
     src: local('Urbane Demi Bold'), local('Urbane-DemiBold'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-DemiBold.eot?#iefix') format('embedded-opentype'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-DemiBold.woff2') format('woff2'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-DemiBold.woff') format('woff'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-DemiBold.ttf') format('truetype');
+        url('fonts/Urbane-DemiBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Urbane-DemiBold.woff2') format('woff2'),
+        url('fonts/Urbane-DemiBold.woff') format('woff'),
+        url('fonts/Urbane-DemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -260,12 +260,12 @@ hr {
 
 @font-face {
     font-family: 'Urbane';
-    src: url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-Heavy.eot');
+    src: url('fonts/Urbane-Heavy.eot');
     src: local('Urbane Heavy'), local('Urbane-Heavy'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-Heavy.eot?#iefix') format('embedded-opentype'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-Heavy.woff2') format('woff2'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-Heavy.woff') format('woff'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-Heavy.ttf') format('truetype');
+        url('fonts/Urbane-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Urbane-Heavy.woff2') format('woff2'),
+        url('fonts/Urbane-Heavy.woff') format('woff'),
+        url('fonts/Urbane-Heavy.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -273,12 +273,12 @@ hr {
 
 @font-face {
     font-family: 'Urbane';
-    src: url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-Thin.eot');
+    src: url('fonts/Urbane-Thin.eot');
     src: local('Urbane Thin'), local('Urbane-Thin'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-Thin.eot?#iefix') format('embedded-opentype'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-Thin.woff2') format('woff2'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-Thin.woff') format('woff'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-Thin.ttf') format('truetype');
+        url('fonts/Urbane-Thin.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Urbane-Thin.woff2') format('woff2'),
+        url('fonts/Urbane-Thin.woff') format('woff'),
+        url('fonts/Urbane-Thin.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
@@ -286,12 +286,12 @@ hr {
 
 @font-face {
     font-family: 'Urbane';
-    src: url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-BoldItalic.eot');
+    src: url('fonts/Urbane-BoldItalic.eot');
     src: local('Urbane Bold Italic'), local('Urbane-BoldItalic'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-BoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-BoldItalic.woff2') format('woff2'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-BoldItalic.woff') format('woff'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-BoldItalic.ttf') format('truetype');
+        url('fonts/Urbane-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Urbane-BoldItalic.woff2') format('woff2'),
+        url('fonts/Urbane-BoldItalic.woff') format('woff'),
+        url('fonts/Urbane-BoldItalic.ttf') format('truetype');
     font-weight: bold;
     font-style: italic;
     font-display: swap;
@@ -299,12 +299,12 @@ hr {
 
 @font-face {
     font-family: 'Urbane Extra';
-    src: url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-ExtraLight.eot');
+    src: url('fonts/Urbane-ExtraLight.eot');
     src: local('Urbane Extra Light'), local('Urbane-ExtraLight'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-ExtraLight.eot?#iefix') format('embedded-opentype'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-ExtraLight.woff2') format('woff2'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-ExtraLight.woff') format('woff'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-ExtraLight.ttf') format('truetype');
+        url('fonts/Urbane-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Urbane-ExtraLight.woff2') format('woff2'),
+        url('fonts/Urbane-ExtraLight.woff') format('woff'),
+        url('fonts/Urbane-ExtraLight.ttf') format('truetype');
     font-weight: 200;
     font-style: normal;
     font-display: swap;
@@ -312,12 +312,12 @@ hr {
 
 @font-face {
     font-family: 'Urbane';
-    src: url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-HeavyItalic.eot');
+    src: url('fonts/Urbane-HeavyItalic.eot');
     src: local('Urbane Heavy Italic'), local('Urbane-HeavyItalic'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-HeavyItalic.eot?#iefix') format('embedded-opentype'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-HeavyItalic.woff2') format('woff2'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-HeavyItalic.woff') format('woff'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-HeavyItalic.ttf') format('truetype');
+        url('fonts/Urbane-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Urbane-HeavyItalic.woff2') format('woff2'),
+        url('fonts/Urbane-HeavyItalic.woff') format('woff'),
+        url('fonts/Urbane-HeavyItalic.ttf') format('truetype');
     font-weight: 900;
     font-style: italic;
     font-display: swap;
@@ -325,12 +325,12 @@ hr {
 
 @font-face {
     font-family: 'Urbane';
-    src: url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-Bold.eot');
+    src: url('fonts/Urbane-Bold.eot');
     src: local('Urbane Bold'), local('Urbane-Bold'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-Bold.eot?#iefix') format('embedded-opentype'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-Bold.woff2') format('woff2'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-Bold.woff') format('woff'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-Bold.ttf') format('truetype');
+        url('fonts/Urbane-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Urbane-Bold.woff2') format('woff2'),
+        url('fonts/Urbane-Bold.woff') format('woff'),
+        url('fonts/Urbane-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -338,12 +338,12 @@ hr {
 
 @font-face {
     font-family: 'Urbane';
-    src: url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-MediumItalic.eot');
+    src: url('fonts/Urbane-MediumItalic.eot');
     src: local('Urbane Medium Italic'), local('Urbane-MediumItalic'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-MediumItalic.eot?#iefix') format('embedded-opentype'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-MediumItalic.woff2') format('woff2'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-MediumItalic.woff') format('woff'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-MediumItalic.ttf') format('truetype');
+        url('fonts/Urbane-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Urbane-MediumItalic.woff2') format('woff2'),
+        url('fonts/Urbane-MediumItalic.woff') format('woff'),
+        url('fonts/Urbane-MediumItalic.ttf') format('truetype');
     font-weight: 500;
     font-style: italic;
     font-display: swap;
@@ -351,12 +351,12 @@ hr {
 
 @font-face {
     font-family: 'Urbane Demi';
-    src: url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-DemiBoldItalic.eot');
+    src: url('fonts/Urbane-DemiBoldItalic.eot');
     src: local('Urbane Demi Bold Italic'), local('Urbane-DemiBoldItalic'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-DemiBoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-DemiBoldItalic.woff2') format('woff2'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-DemiBoldItalic.woff') format('woff'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-DemiBoldItalic.ttf') format('truetype');
+        url('fonts/Urbane-DemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Urbane-DemiBoldItalic.woff2') format('woff2'),
+        url('fonts/Urbane-DemiBoldItalic.woff') format('woff'),
+        url('fonts/Urbane-DemiBoldItalic.ttf') format('truetype');
     font-weight: 600;
     font-style: italic;
     font-display: swap;
@@ -366,10 +366,10 @@ hr {
     font-family: 'Urbane';
     src: url('fonts/Urbane-Light.eot');
     src: local('Urbane Light'), local('Urbane-Light'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-Light.eot?#iefix') format('embedded-opentype'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-Light.woff2') format('woff2'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-Light.woff') format('woff'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-Light.ttf') format('truetype');
+        url('fonts/Urbane-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Urbane-Light.woff2') format('woff2'),
+        url('fonts/Urbane-Light.woff') format('woff'),
+        url('fonts/Urbane-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -377,12 +377,12 @@ hr {
 
 @font-face {
     font-family: 'Urbane Extra';
-    src: url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-ExtraLightItalic.eot');
+    src: url('fonts/Urbane-ExtraLightItalic.eot');
     src: local('Urbane Extra Light Italic'), local('Urbane-ExtraLightItalic'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-ExtraLightItalic.woff2') format('woff2'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-ExtraLightItalic.woff') format('woff'),
-        url('https://github.com/taozi8887/lulediting/blob/main/styles/fonts/Urbane-ExtraLightItalic.ttf') format('truetype');
+        url('fonts/Urbane-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Urbane-ExtraLightItalic.woff2') format('woff2'),
+        url('fonts/Urbane-ExtraLightItalic.woff') format('woff'),
+        url('fonts/Urbane-ExtraLightItalic.ttf') format('truetype');
     font-weight: 200;
     font-style: italic;
     font-display: swap;
